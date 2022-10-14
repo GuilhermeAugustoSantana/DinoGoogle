@@ -1,2 +1,2 @@
-# DinoGoogle
-Fiz o jogo do dino do google
+# Mario
+Fiz um jogo simples do mario
