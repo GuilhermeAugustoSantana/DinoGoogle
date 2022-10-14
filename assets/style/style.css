@@ -1,0 +1,78 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+.main-conteiner {
+   width: 100vw;
+   height: 500px;
+   background: linear-gradient(rgb(201, 243, 246), rgb(252, 252, 252));
+   margin: 0 auto;
+   position: relative;
+   overflow: hidden;
+   border-bottom: 10px solid rgb(55, 200, 15);
+}
+
+.mario {
+   width: 150px;
+   position: absolute;
+   bottom: -7px;
+   left: 0;
+}
+
+.pipe {
+   width: 100px;
+   position: absolute;
+   bottom: 0;
+   animation: pipe 3s infinite linear;
+}
+
+.nuvens {
+   position: absolute;
+   width: 550px;
+   animation: nuvens 10s infinite linear;
+}
+
+.pula {
+   animation: pula 600ms ease-out;
+}
+
+@keyframes nuvens {
+   to {
+      left: -550px;
+   }
+
+   from {
+      left: 100%;
+   }  
+}
+
+@keyframes pula {
+   0% {
+      bottom: -1%;
+   }
+
+   40% {
+      bottom: 33%;
+   }
+
+   50% {
+      bottom: 34%;
+   }
+
+   100% {
+      bottom: -1%;
+   }
+}
+
+@keyframes pipe {
+   to {
+      right: 110%;
+   }
+
+   from {
+      right: -15%;
+   }
+}
