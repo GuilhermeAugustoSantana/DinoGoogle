@@ -1,2 +1,7 @@
 # Mario
-Fiz um jogo simples do mario
+Fiz um jogo simples do mario 
+
+# Tecnologias utilizadas
+   - JavaScript
+   - HTML
+   - CSS
