@@ -6,7 +6,7 @@
 }
 
 .main-conteiner {
-   width: 100vw;
+   width: 100%;
    height: 500px;
    background: linear-gradient(rgb(201, 243, 246), rgb(252, 252, 252));
    margin: 0 auto;
@@ -46,7 +46,7 @@
 
    from {
       left: 100%;
-   }  
+   }
 }
 
 @keyframes pula {
